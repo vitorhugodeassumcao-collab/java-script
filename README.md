@@ -42,3 +42,20 @@ GITHUB -> SETTINGS -> SSH AND GPG KEYS -> NEW SSH KEY -> COLAR E COLOCAR TITULO
 ## REPOSITORIO
 ```
 GITHUB -> REPOSITORYS -> NEW -> PUBLIC, ADD README -> CREATE
+```
+CLONAR REPOSITORIO
+```
+GITBASH 
+cd Documents/
+git clone "chave ssh do repositor"
+```
+
+## VSCODE
+```
+GitBash
+cd Documents
+git clone
+yes
+cd "nome do repositor"
+code .
+```
