@@ -71,7 +71,7 @@ function exercicio6() {
     const segundos = Number(prompt("DE NUMERO DE SEGUNDOS "))
     const resultado6 = (segundos/360)
     alert("ESSES SEGUNDOS EM HORAS SERÁ  "+resultado6)
-    alert("E ME MINUTOS "+resultado6/60)
+    alert("E ME MINUTOS "+resultado6*60)
 }
 
 const buttonExercicio6 = document.getElementById("exercicio6")
