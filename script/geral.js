@@ -71,6 +71,7 @@ function exercicio6() {
     const segundos = Number(prompt("DE NUMERO DE SEGUNDOS "))
     const resultado6 = (segundos/360)
     alert("ESSES SEGUNDOS EM HORAS SERÁ  "+resultado6)
+    alert("E ME MINUTOS "+resultado6/60)
 }
 
 const buttonExercicio6 = document.getElementById("exercicio6")
@@ -82,6 +83,7 @@ function exercicio7() {
     const distancia7 = Number(prompt("DE UMA DISTANCIA EM KM"))
     const resultado7 = (distancia7*1000)
     alert("ESSA DISTANCIA EM METROS SERA "+resultado7)
+    alert("E EM CENTIMETROS "+resultado7*100)
 }
 const buttonExercicio7 = document.getElementById("exercicio7")
 buttonExercicio7.addEventListener('click', () => { exercicio7() })
