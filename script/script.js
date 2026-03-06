@@ -7,3 +7,8 @@ const numero = Number(prompt("Digite um Número:"))
 const numero2 = Number(prompt("Digite outro número"))
 alert(numero+numero2)
 
+
+
+
+
+
